@@ -1,12 +1,12 @@
 {
   "window.zoomLevel": 2,
-  "editor.fontSize": 24,
+  "editor.fontSize": 12,
   "editor.hover.enabled": true,
   "workbench.startupEditor": "none",
   "explorer.compactFolders": false,
-  "terminal.integrated.fontSize": 24,
+  "terminal.integrated.fontSize": 12,
   "editor.rulers": [80, 120],
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+  //"workbench.colorTheme": "OM Theme (Default Dracula Italic)",
   "workbench.iconTheme": "material-icon-theme",
   "code-runner.executorMap": {
     "python": "clear ; python -u"
@@ -14,7 +14,7 @@
   "code-runner.runInTerminal": true,
   "code-runner.ignoreSelection": true,
   "editor.fontFamily": "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
-  "terminal.integrated.fontFamily": "",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.fontLigatures": false,
   "[python]": {
     "editor.defaultFormatter": "ms-python.python",
@@ -22,9 +22,9 @@
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.fixAll.unusedImports": true,
-      "source.organizeImports": true
+      "source.fixAll": "explicit",
+      "source.fixAll.unusedImports": "explicit",
+      "source.organizeImports": "explicit"
     }
   },
   "python.languageServer": "Pylance",
