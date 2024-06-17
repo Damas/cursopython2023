@@ -6,8 +6,8 @@ from contextlib import contextmanager
 def my_open(caminho_arquivo, modo):
     try:
         print('Abrindo arquivo')
-        arquivo = open(caminho_arquivo, modo, encoding='utf8')
-        yield arquivo
+        arch = open(caminho_arquivo, modo, encoding='utf8')
+        yield arch
     except Exception as e:
         print('Ocorreu erro', e)
     finally:
